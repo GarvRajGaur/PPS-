@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    int num , i , counter=0;
+
+    printf("enter a positive interger:");
+    scanf("%d",&num);
+    //check divisior
+    if (num<=1){
+        printf("%d is not prime",num);
+    }
+    for(int i=1;i<=num;i++)
+      if(num%i==0)
+      (counter++);
+    //prime number are divisible by 1 and itself
+
+    if (counter==2){
+        printf("%d is prime", num);
+    }  
+    else {
+        printf("%d is not a prime number", num);
+    }
+        return 0;
+}
