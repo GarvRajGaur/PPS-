@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int var = 3; 
+    int onesComplement = ~var; 
+
+    printf("Original value: %d\n", var);
+    printf("One's complement: %d\n", onesComplement);
+
+    return 0;
+}
