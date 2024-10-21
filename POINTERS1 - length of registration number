@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char regNumber[15];
+
+    printf("Enter the registration number: ");
+    scanf("%s", regNumber);
+
+    int length = strlen(regNumber);
+
+    printf("The length of the registration number is: %d\n", length);
+
+    return 0;
+}
